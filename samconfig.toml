@@ -1,0 +1,9 @@
+version = 0.2
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "nestedappstests"
+s3_bucket = "YOUR_S3_BUCKET"
+s3_prefix = "nestedappstests"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
